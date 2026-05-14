@@ -7,7 +7,7 @@ import aboutImg from './assets/madmoon.png'
 
 const MotionLink = motion(Link)
 
-const BASE = 'https://raw.githubusercontent.com/owntarawneh/CoachingApp-frontend/main/screenshots/'
+const BASE = 'https://raw.githubusercontent.com/owntarawneh/CoachingApp-frontend/main/Photos%20of%20app/'
 const PFMZ = 'https://raw.githubusercontent.com/owntarawneh/perfumize/main/Photos/'
 
 // ── Variants ──────────────────────────────────────────────────────────────────
@@ -602,10 +602,10 @@ function ProjectsSection() {
         </div>
         <Reveal variant={fadeRight}>
           <div className="collage-wrap">
-            <img src={BASE + 'landing.png'}          alt="" className="c-img c-a" />
-            <img src={BASE + 'coach-dashboard.png'}  alt="" className="c-img c-b" />
-            <img src={BASE + 'client-dashboard.png'} alt="" className="c-img c-c" />
-            <img src={PFMZ + 'landing_page.png'}     alt="" className="c-img c-d" />
+            <img src={BASE + 'Landing%20page.png'}         alt="" className="c-img c-a" />
+            <img src={BASE + 'coach%20dash.png'}           alt="" className="c-img c-b" />
+            <img src={BASE + 'clinet%20dash.png'}          alt="" className="c-img c-c" />
+            <img src={PFMZ + 'landing_page.png'}           alt="" className="c-img c-d" />
           </div>
         </Reveal>
       </div>
@@ -627,9 +627,9 @@ function ProjectsHighlightSection() {
         <div className="hl-layout" style={{ marginBottom: '5rem' }}>
           <Reveal variant={fadeLeft} delay={0.1}>
             <div className="hl-stack">
-              <div className="hl-ss hl-ss-1"><img src="/training client.png" alt="Training Client" /></div>
-              <div className="hl-ss hl-ss-2"><img src="/nutri client.png" alt="Weekly Checkin" /></div>
-              <div className="hl-ss hl-ss-3"><img src="/Landing page.png" alt="Client Landing Page" /></div>
+              <div className="hl-ss hl-ss-1"><img src={BASE + 'training%20client.png'} alt="Training Client" /></div>
+              <div className="hl-ss hl-ss-2"><img src={BASE + 'weekly%20checkin%20client.png'} alt="Weekly Checkin" /></div>
+              <div className="hl-ss hl-ss-3"><img src={BASE + 'Landing%20page.png'} alt="Client Landing Page" /></div>
             </div>
           </Reveal>
           <Reveal variant={fadeRight} delay={0.2}>
