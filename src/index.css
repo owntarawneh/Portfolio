@@ -469,12 +469,12 @@ section {
 .hl-layout-reverse { direction: rtl; }
 .hl-layout-reverse > * { direction: ltr; }
 
-.hl-ss-gradient { display: flex; align-items: center; justify-content: center; filter: grayscale(0%) !important; }
-.hl-mock-label {
-  color: rgba(255,255,255,0.7); font-size: 0.75rem; font-weight: 600;
-  letter-spacing: 0.04em; text-align: center; padding: 0 1rem;
-  text-transform: uppercase;
-}
+.hl-grid-stack { display: flex; flex-direction: column; gap: 0.6rem; width: 100%; }
+.hl-grid-top { border-radius: 10px; overflow: hidden; box-shadow: 0 12px 32px rgba(0,0,0,0.15); }
+.hl-grid-top img { width: 100%; height: 200px; object-fit: cover; object-position: top; display: block; }
+.hl-grid-bottom { display: grid; grid-template-columns: 1fr 1fr; gap: 0.6rem; }
+.hl-grid-bot-img { border-radius: 10px; overflow: hidden; box-shadow: 0 8px 24px rgba(0,0,0,0.13); }
+.hl-grid-bot-img img { width: 100%; height: 160px; object-fit: cover; object-position: top; display: block; }
 
 .hl-proj-name {
   font-size: clamp(2rem, 3.5vw, 3rem); font-weight: 800;

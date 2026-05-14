@@ -658,31 +658,33 @@ function ProjectsHighlightSection() {
             <div>
               <h3 className="hl-proj-name">LearnPath AI</h3>
               <p className="hl-proj-desc">
-                An intelligent course recommendation platform built with Python, Flask, and local SBERT
-                embeddings. Leverages semantic search and reinforcement learning to personalise learning
-                journeys based on user intent and feedback. Students discover relevant courses, complete
-                pre- and post-course knowledge assessments to track learning growth, and auto-generate
-                smart study plans tailored to their availability — all through a fully bilingual
-                (English &amp; Arabic) interface.
+                An intelligent course recommendation platform built with Python, Flask, HTML/Vanilla CSS/JS,
+                and local SBERT embeddings. Leverages semantic search and reinforcement learning to
+                personalise learning journeys based on user intent and feedback. Students discover relevant
+                courses, complete pre- and post-course knowledge assessments to track learning growth, and
+                auto-generate smart study plans tailored to their availability — all through a fully
+                bilingual (English &amp; Arabic) interface.
               </p>
               <div style={{ display: 'flex', gap: '0.75rem', marginTop: '1.5rem', flexWrap: 'wrap' }}>
                 <motion.a href="https://learnpath-ai-383956869392.us-central1.run.app" target="_blank" rel="noreferrer"
                   className="btn-dark" whileHover={{ scale: 1.04 }} whileTap={{ scale: 0.97 }}>Live Demo →</motion.a>
-                <motion.a href="https://github.com/owntarawneh/LearnPath-AI" target="_blank" rel="noreferrer"
+                <motion.a href="https://github.com/owntarawneh/LearningHelper" target="_blank" rel="noreferrer"
                   className="btn-outline" whileHover={{ scale: 1.04 }} whileTap={{ scale: 0.97 }}>GitHub →</motion.a>
               </div>
             </div>
           </Reveal>
           <Reveal variant={fadeRight} delay={0.2}>
-            <div className="hl-stack">
-              <div className="hl-ss hl-ss-1 hl-ss-gradient" style={{ background: 'linear-gradient(135deg,#0a1628,#1a3a8f)' }}>
-                <div className="hl-mock-label">AI Search & Recommendations</div>
+            <div className="hl-grid-stack">
+              <div className="hl-grid-top">
+                <img src="https://raw.githubusercontent.com/owntarawneh/LearningHelper/main/screenshots/home.png" alt="LearnPath AI Home" />
               </div>
-              <div className="hl-ss hl-ss-2 hl-ss-gradient" style={{ background: 'linear-gradient(135deg,#0d2444,#0f5f6b)' }}>
-                <div className="hl-mock-label">Personalised Dashboard</div>
-              </div>
-              <div className="hl-ss hl-ss-3 hl-ss-gradient" style={{ background: 'linear-gradient(135deg,#071422,#1a2a6b)' }}>
-                <div className="hl-mock-label">Course Catalog · 1000+ Courses</div>
+              <div className="hl-grid-bottom">
+                <div className="hl-grid-bot-img">
+                  <img src="https://raw.githubusercontent.com/owntarawneh/LearningHelper/main/screenshots/search.png" alt="LearnPath AI Search" />
+                </div>
+                <div className="hl-grid-bot-img">
+                  <img src="https://raw.githubusercontent.com/owntarawneh/LearningHelper/main/screenshots/explorer.png" alt="LearnPath AI Explorer" />
+                </div>
               </div>
             </div>
           </Reveal>
