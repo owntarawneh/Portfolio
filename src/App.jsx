@@ -622,7 +622,9 @@ function ProjectsHighlightSection() {
           <div className="section-dashes"><span /><span /></div>
           <h3 className="sub-heading">Highlight</h3>
         </Reveal>
-        <div className="hl-layout">
+
+        {/* OwnCoaching */}
+        <div className="hl-layout" style={{ marginBottom: '5rem' }}>
           <Reveal variant={fadeLeft} delay={0.1}>
             <div className="hl-stack">
               <div className="hl-ss hl-ss-1"><img src={BASE + 'coach-dashboard.png'} alt="" /></div>
@@ -649,6 +651,43 @@ function ProjectsHighlightSection() {
             </div>
           </Reveal>
         </div>
+
+        {/* LearnPath AI */}
+        <div className="hl-layout hl-layout-reverse">
+          <Reveal variant={fadeLeft} delay={0.1}>
+            <div>
+              <h3 className="hl-proj-name">LearnPath AI</h3>
+              <p className="hl-proj-desc">
+                An intelligent course recommendation platform built with Python, Flask, and local SBERT
+                embeddings. Leverages semantic search and reinforcement learning to personalise learning
+                journeys based on user intent and feedback. Students discover relevant courses, complete
+                pre- and post-course knowledge assessments to track learning growth, and auto-generate
+                smart study plans tailored to their availability — all through a fully bilingual
+                (English &amp; Arabic) interface.
+              </p>
+              <div style={{ display: 'flex', gap: '0.75rem', marginTop: '1.5rem', flexWrap: 'wrap' }}>
+                <motion.a href="https://learnpath-ai-383956869392.us-central1.run.app" target="_blank" rel="noreferrer"
+                  className="btn-dark" whileHover={{ scale: 1.04 }} whileTap={{ scale: 0.97 }}>Live Demo →</motion.a>
+                <motion.a href="https://github.com/owntarawneh/LearnPath-AI" target="_blank" rel="noreferrer"
+                  className="btn-outline" whileHover={{ scale: 1.04 }} whileTap={{ scale: 0.97 }}>GitHub →</motion.a>
+              </div>
+            </div>
+          </Reveal>
+          <Reveal variant={fadeRight} delay={0.2}>
+            <div className="hl-stack">
+              <div className="hl-ss hl-ss-1 hl-ss-gradient" style={{ background: 'linear-gradient(135deg,#0a1628,#1a3a8f)' }}>
+                <div className="hl-mock-label">AI Search & Recommendations</div>
+              </div>
+              <div className="hl-ss hl-ss-2 hl-ss-gradient" style={{ background: 'linear-gradient(135deg,#0d2444,#0f5f6b)' }}>
+                <div className="hl-mock-label">Personalised Dashboard</div>
+              </div>
+              <div className="hl-ss hl-ss-3 hl-ss-gradient" style={{ background: 'linear-gradient(135deg,#071422,#1a2a6b)' }}>
+                <div className="hl-mock-label">Course Catalog · 1000+ Courses</div>
+              </div>
+            </div>
+          </Reveal>
+        </div>
+
       </div>
     </section>
   )

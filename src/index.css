@@ -466,6 +466,16 @@ section {
 .hl-ss-2 { width: 86%; left: 5%; top: 90px; height: 210px; transform: rotate(1.5deg);  z-index: 2; }
 .hl-ss-3 { width: 82%; left: 9%; top: 185px;height: 210px; transform: rotate(-1deg);   z-index: 3; }
 
+.hl-layout-reverse { direction: rtl; }
+.hl-layout-reverse > * { direction: ltr; }
+
+.hl-ss-gradient { display: flex; align-items: center; justify-content: center; filter: grayscale(0%) !important; }
+.hl-mock-label {
+  color: rgba(255,255,255,0.7); font-size: 0.75rem; font-weight: 600;
+  letter-spacing: 0.04em; text-align: center; padding: 0 1rem;
+  text-transform: uppercase;
+}
+
 .hl-proj-name {
   font-size: clamp(2rem, 3.5vw, 3rem); font-weight: 800;
   letter-spacing: -0.03em; color: var(--text); margin-bottom: 1.1rem;
@@ -587,6 +597,7 @@ section {
   .skill-cats { grid-template-columns: repeat(2, 1fr); }
   .edu-grid { grid-template-columns: 1fr; gap: 3rem; }
   .hl-layout { grid-template-columns: 1fr; }
+  .hl-layout-reverse { direction: ltr; }
   .hl-stack { height: 280px; }
   .proj-grid { grid-template-columns: repeat(2, 1fr); }
   .timeline-wrap { grid-template-columns: 1fr; }
