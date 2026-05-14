@@ -643,8 +643,10 @@ function ProjectsHighlightSection() {
                 all secured with JWT role-based authentication.
               </p>
               <div style={{ display: 'flex', gap: '0.75rem', marginTop: '1.5rem', flexWrap: 'wrap' }}>
+                <motion.a href="https://coaching-app-frontend-h3obff3t5-owntarawnehs-projects.vercel.app/" target="_blank" rel="noreferrer"
+                  className="btn-dark" whileHover={{ scale: 1.04 }} whileTap={{ scale: 0.97 }}>Live Demo →</motion.a>
                 <motion.a href="https://github.com/owntarawneh/CoachingApp-frontend" target="_blank" rel="noreferrer"
-                  className="btn-dark" whileHover={{ scale: 1.04 }} whileTap={{ scale: 0.97 }}>Frontend →</motion.a>
+                  className="btn-outline" whileHover={{ scale: 1.04 }} whileTap={{ scale: 0.97 }}>Frontend →</motion.a>
                 <motion.a href="https://github.com/owntarawneh/CoachingApp-backend" target="_blank" rel="noreferrer"
                   className="btn-outline" whileHover={{ scale: 1.04 }} whileTap={{ scale: 0.97 }}>Backend →</motion.a>
               </div>
