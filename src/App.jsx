@@ -657,7 +657,9 @@ function ProjectsHighlightSection() {
 // ── PROJECT CARD ──────────────────────────────────────────────────────────────
 function ProjectCard({ p }) {
   return (
-    <motion.div className="pgc" style={{ background: p.bgColor || '#1a1f2e' }}
+    <motion.a
+      href={p.github || '#'} target="_blank" rel="noreferrer"
+      className="pgc" style={{ background: p.bgColor || '#1a1f2e', display: 'block', textDecoration: 'none' }}
       whileHover={{ y: -6, boxShadow: '0 20px 48px rgba(0,0,0,0.18)' }}
       transition={{ type: 'spring', stiffness: 300, damping: 22 }}
     >
@@ -669,12 +671,10 @@ function ProjectCard({ p }) {
         <p className="pgc-desc">{p.desc}</p>
         <div className="pgc-tags">{p.tags.map(t => <span key={t} className="pgc-tag">{t}</span>)}</div>
         {p.github && (
-          <a href={p.github} target="_blank" rel="noreferrer" className="pgc-link" onClick={e => e.stopPropagation()}>
-            GitHub →
-          </a>
+          <span className="pgc-link">GitHub →</span>
         )}
       </div>
-    </motion.div>
+    </motion.a>
   )
 }
 
