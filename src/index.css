@@ -599,6 +599,9 @@ section {
   .hl-layout { grid-template-columns: 1fr; }
   .hl-layout-reverse { direction: ltr; }
   .hl-stack { height: 280px; }
+  .hl-ss-1 { height: 140px; }
+  .hl-ss-2 { top: 60px; height: 140px; }
+  .hl-ss-3 { top: 123px; height: 140px; }
   .proj-grid { grid-template-columns: repeat(2, 1fr); }
   .timeline-wrap { grid-template-columns: 1fr; }
   .tl-row { display: block; }
@@ -627,6 +630,9 @@ section {
   .cta-arrow-circle { width: 40px; height: 40px; }
   .collage-wrap { height: 220px; }
   .hl-stack { height: 180px; }
+  .hl-ss-1 { height: 90px; }
+  .hl-ss-2 { top: 39px; height: 90px; }
+  .hl-ss-3 { top: 79px; height: 90px; }
   .photo-collage { height: 200px; }
   .pc-img { width: 160px; height: 220px; }
   .pc-2 { top: 40px; left: 90px; }
