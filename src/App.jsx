@@ -627,9 +627,9 @@ function ProjectsHighlightSection() {
         <div className="hl-layout" style={{ marginBottom: '5rem' }}>
           <Reveal variant={fadeLeft} delay={0.1}>
             <div className="hl-stack">
-              <div className="hl-ss hl-ss-1"><img src={BASE + 'coach-dashboard.png'} alt="" /></div>
-              <div className="hl-ss hl-ss-2"><img src={BASE + 'landing.png'} alt="" /></div>
-              <div className="hl-ss hl-ss-3"><img src={BASE + 'client-dashboard.png'} alt="" /></div>
+              <div className="hl-ss hl-ss-1"><img src="/training client.png" alt="Training Client" /></div>
+              <div className="hl-ss hl-ss-2"><img src="/nutri client.png" alt="Weekly Checkin" /></div>
+              <div className="hl-ss hl-ss-3"><img src="/Landing page.png" alt="Client Landing Page" /></div>
             </div>
           </Reveal>
           <Reveal variant={fadeRight} delay={0.2}>
