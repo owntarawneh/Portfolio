@@ -676,14 +676,14 @@ function ProjectsHighlightSection() {
           <Reveal variant={fadeRight} delay={0.2}>
             <div className="hl-grid-stack">
               <div className="hl-grid-top">
-                <img src="/1.png" alt="LearnPath AI Home" />
+                <img src="/3.png" alt="LearnPath AI Home" />
               </div>
               <div className="hl-grid-bottom">
                 <div className="hl-grid-bot-img">
-                  <img src="/2.png" alt="LearnPath AI Search" />
+                  <img src="/1.png" alt="LearnPath AI Search" />
                 </div>
                 <div className="hl-grid-bot-img">
-                  <img src="/3.png" alt="LearnPath AI Explorer" />
+                  <img src="/2.png" alt="LearnPath AI Explorer" />
                 </div>
               </div>
             </div>
