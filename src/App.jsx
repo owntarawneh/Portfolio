@@ -298,7 +298,7 @@ function HomeSection() {
             initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.75 }}
           >
-            <motion.a href="#" className="btn-dark" whileHover={{ scale: 1.04 }} whileTap={{ scale: 0.97 }}>Download CV</motion.a>
+            <motion.a href="/Aon Tarawneh CV_FullStack.pdf" download="Aon Tarawneh CV_FullStack.pdf" className="btn-dark" whileHover={{ scale: 1.04 }} whileTap={{ scale: 0.97 }}>Download CV</motion.a>
             <motion.a href="#contact" className="btn-outline" whileHover={{ scale: 1.04 }} whileTap={{ scale: 0.97 }}>Contact Me</motion.a>
           </motion.div>
         </div>
